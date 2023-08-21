@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 300vh;
+}
+.nav__collection{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 5px 15px #0002;
+    background: #ddd;
+    padding: 10px 220px;
+    font-size: 14px;
+    color: #666;
+}
+.li{
+    font-size: 16px;
+    color: #333;
+}
+.main{
+    width: 100%;
+    height: 360px;
+    background: url(./navbar.jpg) no-repeat center/cover;
+}
+.icons{
+    width: 70%;
+    
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+.icons__first{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+.icons__second{
+    width: 100%;
+    height: 40%;
+    background: url(./icons.png) no-repeat center;
+}
+.icons__third{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+
+}
+.icons__third input{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #666;
+    margin-top: 20px;
+}
+.get{
+    width: 100%;
+    height: 500px;
+    background: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get__img{
+    width: 100%;
+    height: 300px;
+    background: url(./tile-feature-ios16.image.large_2x.png) no-repeat center/cover;   
+    margin-top: 5px;
+    
+}
+.white{
+    width: 60%;
+    height: 400px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;   
+    line-height: 2;   
+}
+.white h4{
+    color: dodgerblue;
+}
+.white p{
+    color: #666;
+}
+.white h2{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.my__support{
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+.blue{
+    color: dodgerblue;
+}
+.my__support{
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+}
+.my__support p{
+    font-size: 12px;  
+}
